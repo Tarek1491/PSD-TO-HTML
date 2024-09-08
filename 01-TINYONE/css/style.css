@@ -1,0 +1,230 @@
+/* font-family: "PT Sans", sans-serif  */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+h1,h2,h3,h4,h5,h6,h7,div,span,header,nav,p{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar css past start  */
+.nav_bar{
+    background-color:#fcdb00 ;
+    padding:25px 0px;
+
+}
+.nav_logo{
+    display: flex;
+    align-items: center;
+}
+.nav_logo img{
+    float: left;
+}
+.nav_logo h4{
+    padding-left:5px;
+    font-size: 30px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+       
+}
+.nav_menu{
+    display: flex;
+    text-align: center;
+}
+.nav_manu ul{
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+}
+.nav_menu li{
+ float: left;
+ padding: 0 0 0 75px;
+ margin-top: 16px;
+}
+
+.nav_menu li a{
+    color: #010101;
+    font-size: 22px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    line-height: 25px;
+}
+.fix  {
+    clear: both;
+}
+/* navbar css past end  */
+
+
+/* banner css part start  */
+
+.banner_carusol{
+    background-color: #fcdb00;
+    height: 600px;
+}
+
+.banner_content h4{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "PT Sans", sans-serif;
+    color:#010101;
+    padding-top: 100px;
+}
+
+.banner_content_2 p:first-child{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "PT Sans", sans-serif;
+    color:#010101;
+    padding: 25px 0 30px 0;
+}
+
+.banner_content_2 p:nth-child(2){
+
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "PT Sans", sans-serif;
+    color:#010101;
+    margin-bottom: 50px;
+}
+.banner_content a{
+    color:#010101;
+    font-size: 30px;
+    padding-right: 50px;
+
+}
+
+.content_moblie img{
+    margin-left: 200px;
+    padding-top:50px ;
+}
+
+/* banner css part end  */
+
+/* features css part start  */
+
+.features{
+    background-color: #ffff;
+}
+.features_content h4{
+    text-align: center;
+    padding-top: 100px;
+}
+.features_content p{
+    text-align: center;
+    padding: 20px 0 50px 0;S 
+}
+
+.icon{
+    align-items:center;
+    display:flex;
+    justify-content:center;
+
+}
+.features_menu_content p:first-child{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "PT Sans", sans-serif;
+    color:#010101;
+    margin: 0 0 10px 0;
+}
+.features_menu_content p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "PT Sans", sans-serif;
+    color:#bdbdbd;
+    line-height: 18px;
+    margin-bottom: 90px;
+
+}
+
+
+
+/* features css part end */
+
+/* footer section css part start  */
+.footer_part1{
+    background-color: #010101;
+   
+}
+
+.footer_about{
+    text-align: center;
+}
+.footer_about h4{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "PT Sans", sans-serif;
+    color:#fcdb00;
+    margin-top: 90px;
+    padding-bottom: 15px;
+
+}
+.footer_about p{
+    font-size: 20px;
+    font-weight:400;
+    line-height: 24px;
+    font-family: "PT Sans", sans-serif;
+    color:#898989;
+}
+
+.email_update input{
+    padding: 12px 400px 12px 10px;
+    margin-top: 25px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+.email_update input::placeholder{
+    color:#898989;
+}
+
+.email_update button{
+    margin-top: 25px;
+    padding: 12px 25px 12px 25px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background-color: #fcdb00;
+    color: black;
+    font-weight: 700;
+    font-family: "PT Sans", sans-serif;    font-family: "PT Sans", sans-serif;
+    margin-left: 20px;
+    
+}
+
+.footter_part2{
+    margin-top: 30px;
+}
+.footter_part2 a{
+    font-size: 40px;
+    margin: 10px;
+    color:#fcdb00;
+    background: rgb(0, 0, 0);
+    
+}
+
+.footer_finisher{
+    margin-top: 200px;
+    padding-bottom: 100px;
+}
+.footer_finisher p{
+    color:#898989;
+}
+
+
+
+
+
+
+/* footer section css part end  */
